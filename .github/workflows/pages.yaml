@@ -29,3 +29,8 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.HEXO_DEPLOY }}
+          publish_dir: ./public
