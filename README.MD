@@ -1,17 +1,46 @@
----
-title: Hello World
----
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+# README
 
 ## Quick Start
 
-### Create a new post
+### Setup hexo
+
+You should have NodeJS and npm installed on your computer.
+
+macOS:
+
+```
+brew install npm
+```
+
+Linux: [See This](https://stackoverflow.com/questions/39981828/installing-nodejs-and-npm-on-linux)
+
+Windows: [See This](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+Install Hexo
+
+```
+npm install -g hexo
+```
+
+### Create a new recipe
 
 ``` bash
-$ hexo new "My New Post"
+$ hexo new "My New Recipe"
 ```
 
 More info: [Writing](https://hexo.io/docs/writing.html)
+
+Edit the MD file in the output.
+
+### Publish
+
+```
+git add .
+git commit -m "Recipe: My new Recipe"
+git push
+```
+
+## Test on local machine
 
 ### Run server
 
