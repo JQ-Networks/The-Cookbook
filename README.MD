@@ -32,6 +32,8 @@ More info: [Writing](https://hexo.io/docs/writing.html)
 
 Edit the MD file in the output.
 
+There is a template [Post模板.md](Post模板.md) under root directory.
+
 ### Publish
 
 ```
