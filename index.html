@@ -147,6 +147,134 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="cn">
+    <link itemprop="mainEntityOfPage" href="http://cookbook.jq.mk/2022/12/07/%E5%8F%B0%E6%B9%BE%E5%8D%A4%E8%82%89%E9%A5%AD/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Multi">
+      <meta itemprop="description" content="Recipies and Ingredients">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="The Cookbook">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/12/07/%E5%8F%B0%E6%B9%BE%E5%8D%A4%E8%82%89%E9%A5%AD/" class="post-title-link" itemprop="url">台湾卤肉饭</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2022-12-07 07:28:04" itemprop="dateCreated datePublished" datetime="2022-12-07T07:28:04+00:00">2022-12-07</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2022-12-10 09:48:48" itemprop="dateModified" datetime="2022-12-10T09:48:48+00:00">2022-12-10</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="Author"><a href="#Author" class="headerlink" title="Author"></a>Author</h2><p>JQ</p>
+<h2 id="成品"><a href="#成品" class="headerlink" title="成品"></a>成品</h2><p><img src="/../images/%E5%8F%B0%E6%B9%BE%E5%8D%A4%E8%82%89%E9%A5%AD/AC688C3A-1F06-4C5C-AE1C-1757ABE83293_1_201_a.jpeg" alt="锅里效果"><br><img src="/../images/%E5%8F%B0%E6%B9%BE%E5%8D%A4%E8%82%89%E9%A5%AD/F0173F90-174E-464B-9217-66775EFF5E4C_1_105_c.jpeg" alt="碗里效果"></p>
+<h2 id="用时"><a href="#用时" class="headerlink" title="用时"></a>用时</h2><p>主菜：3 小时</p>
+<p>高汤：2.5小时</p>
+<h2 id="配料表"><a href="#配料表" class="headerlink" title="配料表"></a>配料表</h2><h3 id="主菜"><a href="#主菜" class="headerlink" title="主菜"></a>主菜</h3><ol>
+<li>肥瘦相间的大块带皮五花肉，最好纹理均匀，不要有太厚的肥肉，每单位 500g。</li>
+<li>足量的姜，每单位20g （拇指大小）。</li>
+<li>大料，一个。</li>
+<li>油葱酥 （油炸洋葱碎），20g 。</li>
+<li>金兰油膏，每单位 50ml ，可根据鲜度和口味适量多加。</li>
+<li>生抽，根据口味轻重调节咸度。</li>
+<li>冰糖，大概五六粒，10g-15g 。</li>
+<li>白胡椒粉，少许，约 1g 。</li>
+<li>十三香，少许，约 1g 。</li>
+<li>白料酒，约 50g 。</li>
+<li>豆腐干，可选，少量，切成 0.5cm 的正方体。</li>
+<li>味精，可选。</li>
+<li>鸡蛋，数量任意，煮好剥开备用。煮约 20 分钟，之后置入冰水中冷却，然后剥开。</li>
+</ol>
+<h3 id="高汤（可以买现成的猪骨高汤）"><a href="#高汤（可以买现成的猪骨高汤）" class="headerlink" title="高汤（可以买现成的猪骨高汤）"></a>高汤（可以买现成的猪骨高汤）</h3><ol>
+<li>猪棒骨 500g。</li>
+<li>猪肩胛骨 500g。</li>
+<li>鸡汤一罐&#x2F;鸡架一只。</li>
+</ol>
+<h2 id="制作过程"><a href="#制作过程" class="headerlink" title="制作过程"></a>制作过程</h2><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><pre class="mermaid">gantt
+    title 总流程
+    dateFormat  HH:mm
+    axisFormat %H:%M
+    section High Level
+    高汤              :a, 00:00, 2.5h
+    主菜              :crit, b, after a, 2h
+    section Detailed View
+    猪骨泡血水         :a1, 00:00, 0.5h
+    炖高汤            :a2, after a1, 2h
+    预处理所有材料      :b1, 00:30, 0.5h
+    五花肉焯水          :b2, after b1, 10m
+    五花肉切条          :b3, after b2, 10m
+    煸炒五花肉          :b4, after b3, 15m
+
+    加入高汤开始煮五花肉  :b5, after b4 a2, 5m
+    调味                :b6, after b5, 2m
+    小火慢炖             :b7, after b6, 83m
+    加入煮鸡蛋           :b8, after b7, 2m
+    小火慢炖             :b9, after b8, 23m
+    加入豆腐干           :b10, after b9, 2m
+    小火慢炖             :b11, after b10, 3m</pre>
+
+<h3 id="高汤"><a href="#高汤" class="headerlink" title="高汤"></a>高汤</h3><ol>
+<li>猪筒骨和猪肩胛骨泡水洗净，放入锅中加水至没过。如有鸡架，在此步骤加入。</li>
+<li>小火慢炖 2 小时。</li>
+<li>如有鸡汤，加入鸡汤。</li>
+<li>过滤高汤备用。</li>
+</ol>
+<h3 id="主菜-1"><a href="#主菜-1" class="headerlink" title="主菜"></a>主菜</h3><ol>
+<li>五花肉切成大长条，约 2cm 厚的大条，形状如下图所示，约下图一半宽度，否则无法煮熟。<br><img src="/../images/%E5%8F%B0%E6%B9%BE%E5%8D%A4%E8%82%89%E9%A5%AD/f_8szqUjlxzdvp4-VZ6meQ.jpg" alt="五花肉条"></li>
+<li>煮锅中加入冷水，五花肉下锅焯水约 10 分钟，至五花肉熟透。</li>
+<li>捞出五花肉，沿垂直皮的方向切成边长约 0.5cm 的正方形截面细条，高度为五花肉厚度。</li>
+<li>平底煎锅加入少许油，放入半层五花肉，这一步根据具体炉灶火力决定放多少肉。将肉煸至微黄，略微出油，即可出锅备用。锅不够大可以分批处理。</li>
+<li>煮锅加入高汤，加入煸好的五花肉，大火烧开。</li>
+<li>烧开过程中可以开始进行调味，加入切好的姜，大料，油葱酥，金兰油膏，生抽，冰糖，白胡椒粉，十三香，白料酒。</li>
+<li>锅开后改小火慢炖 1.5h，放入煮好剥开的鸡蛋。检查调味，如果鲜味不够，可以再加一些金兰油膏和味精。</li>
+<li>再煮约 0.5h，放入切好的豆腐干。</li>
+<li>再煮约 5 分钟，即可使用。</li>
+</ol>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="cn">
     <link itemprop="mainEntityOfPage" href="http://cookbook.jq.mk/2022/12/07/%E8%8F%9C%E8%B0%B1%E4%B8%8A%E7%BA%BF%E4%BA%86%EF%BC%81/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -187,104 +315,6 @@
 
       
           <p>这是一个测试页面</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="cn">
-    <link itemprop="mainEntityOfPage" href="http://cookbook.jq.mk/2022/12/07/%E5%8F%B0%E6%B9%BE%E5%8D%A4%E8%82%89%E9%A5%AD/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Multi">
-      <meta itemprop="description" content="Recipies and Ingredients">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="The Cookbook">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2022/12/07/%E5%8F%B0%E6%B9%BE%E5%8D%A4%E8%82%89%E9%A5%AD/" class="post-title-link" itemprop="url">台湾卤肉饭</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2022-12-07 02:28:04 / Modified: 07:55:03" itemprop="dateCreated datePublished" datetime="2022-12-07T02:28:04+00:00">2022-12-07</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="成品"><a href="#成品" class="headerlink" title="成品"></a>成品</h2><p><img src="/../images/%E5%8F%B0%E6%B9%BE%E5%8D%A4%E8%82%89%E9%A5%AD/AC688C3A-1F06-4C5C-AE1C-1757ABE83293_1_201_a.jpeg" alt="锅里效果"><br><img src="/../images/%E5%8F%B0%E6%B9%BE%E5%8D%A4%E8%82%89%E9%A5%AD/F0173F90-174E-464B-9217-66775EFF5E4C_1_105_c.jpeg" alt="碗里效果"></p>
-<h2 id="用时"><a href="#用时" class="headerlink" title="用时"></a>用时</h2><p>主菜：3 小时</p>
-<p>高汤：2.5小时</p>
-<h2 id="配料表"><a href="#配料表" class="headerlink" title="配料表"></a>配料表</h2><h3 id="主菜"><a href="#主菜" class="headerlink" title="主菜"></a>主菜</h3><ol>
-<li>肥瘦相间的大块带皮五花肉，最好纹理均匀，不要有太厚的肥肉，每单位 500g。</li>
-<li>足量的姜，每单位20g （拇指大小）。</li>
-<li>大料，一个。</li>
-<li>油葱酥 （油炸洋葱碎），20g 。</li>
-<li>金兰油膏，每单位 50ml ，可根据鲜度和口味适量多加。</li>
-<li>生抽，根据口味轻重调节咸度。</li>
-<li>冰糖，大概五六粒，10g-15g 。</li>
-<li>白胡椒粉，少许，约 1g 。</li>
-<li>十三香，少许，约 1g 。</li>
-<li>白料酒，约 50g 。</li>
-<li>豆腐干，可选，少量，切成 0.5cm 的正方体。</li>
-<li>味精，可选。</li>
-<li>鸡蛋，数量任意，煮好剥开备用。煮约 20 分钟，之后置入冰水中冷却，然后剥开。</li>
-</ol>
-<h3 id="高汤（可以买现成的猪骨高汤）"><a href="#高汤（可以买现成的猪骨高汤）" class="headerlink" title="高汤（可以买现成的猪骨高汤）"></a>高汤（可以买现成的猪骨高汤）</h3><ol>
-<li>猪棒骨 500g。</li>
-<li>猪肩胛骨 500g。</li>
-<li>鸡汤一罐&#x2F;鸡架一只。</li>
-</ol>
-<h2 id="制作过程"><a href="#制作过程" class="headerlink" title="制作过程"></a>制作过程</h2><h3 id="高汤"><a href="#高汤" class="headerlink" title="高汤"></a>高汤</h3><ol>
-<li>猪筒骨和猪肩胛骨泡水洗净，放入锅中加水至没过。如有鸡架，在此步骤加入。</li>
-<li>小火慢炖 2 小时。</li>
-<li>如有鸡汤，加入鸡汤。</li>
-<li>过滤高汤备用。</li>
-</ol>
-<h3 id="主菜-1"><a href="#主菜-1" class="headerlink" title="主菜"></a>主菜</h3><ol>
-<li>五花肉切成大长条，约 2cm 厚的大条，形状如下图所示，约下图一半宽度，否则无法煮熟。<br><img src="/../images/%E5%8F%B0%E6%B9%BE%E5%8D%A4%E8%82%89%E9%A5%AD/f_8szqUjlxzdvp4-VZ6meQ.jpg" alt="五花肉条"></li>
-<li>煮锅中加入冷水，五花肉下锅焯水约 10 分钟，至五花肉熟透。</li>
-<li>捞出五花肉，沿垂直皮的方向切成边长约 0.5cm 的正方形截面细条，高度为五花肉厚度。</li>
-<li>平底煎锅加入少许油，放入半层五花肉，这一步根据具体炉灶火力决定放多少肉。将肉煸至微黄，略微出油，即可出锅备用。锅不够大可以分批处理。</li>
-<li>煮锅加入高汤，加入煸好的五花肉，大火烧开。</li>
-<li>烧开过程中可以开始进行调味，加入切好的姜，大料，油葱酥，金兰油膏，生抽，冰糖，白胡椒粉，十三香，白料酒。</li>
-<li>锅开后改小火慢炖 1.5h，放入煮好剥开的鸡蛋。检查调味，如果鲜味不够，可以再加一些金兰油膏和味精。</li>
-<li>再煮约 0.5h，放入切好的豆腐干。</li>
-<li>再煮约 5 分钟，即可使用。</li>
-</ol>
 
       
     </div>
@@ -369,6 +399,10 @@
           <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">posts</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">tags</span>
       </div>
   </nav>
 </div>
