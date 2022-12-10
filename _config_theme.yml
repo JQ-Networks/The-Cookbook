@@ -959,7 +959,7 @@ vendors:
   # Mermaid
   # mermaid: //cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js
   # mermaid: //cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.8/mermaid.min.js
-  mermaid:
+  mermaid: //cdnjs.cloudflare.com/ajax/libs/mermaid/9.2.2/mermaid.min.js
 
   # Internal version: 1.2.1
   # velocity: //cdn.jsdelivr.net/npm/velocity-animate@1/velocity.min.js
