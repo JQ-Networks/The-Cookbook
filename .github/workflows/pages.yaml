@@ -27,6 +27,8 @@ jobs:
             ${{ runner.OS }}-npm-cache
       - name: Install Dependencies
         run: npm install
+      - name: override theme config
+        run: cp _config_theme.yml themes/next/_config.yml
       - name: Build
         run: npm run build
       - name: Deploy
