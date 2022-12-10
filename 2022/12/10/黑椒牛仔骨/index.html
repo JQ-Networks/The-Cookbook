@@ -29,7 +29,7 @@
 <meta property="og:locale">
 <meta property="og:image" content="http://cookbook.jq.mk/images/%E9%BB%91%E6%A4%92%E7%89%9B%E4%BB%94%E9%AA%A8/78173D5A-545C-4E81-9558-A4116236156F_1_105_c.jpeg">
 <meta property="article:published_time" content="2022-12-10T17:15:23.000Z">
-<meta property="article:modified_time" content="2022-12-10T23:23:32.580Z">
+<meta property="article:modified_time" content="2022-12-10T23:29:19.370Z">
 <meta property="article:author" content="Multi">
 <meta property="article:tag" content="77">
 <meta name="twitter:card" content="summary">
@@ -177,7 +177,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2022-12-10 17:15:23 / Modified: 23:23:32" itemprop="dateCreated datePublished" datetime="2022-12-10T17:15:23+00:00">2022-12-10</time>
+              <time title="Created: 2022-12-10 17:15:23 / Modified: 23:29:19" itemprop="dateCreated datePublished" datetime="2022-12-10T17:15:23+00:00">2022-12-10</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -211,7 +211,21 @@
 <li>西兰花 可选 少许</li>
 <li>黑椒汁配料：蚝油 0.5 teaspoon，生抽 0.5 teaspoon，水 50ml，淀粉少许，糖 1 teaspoon，研磨黑椒粉（grind black pepper） 20g</li>
 </ol>
-<h2 id="制作过程"><a href="#制作过程" class="headerlink" title="制作过程"></a>制作过程</h2><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">gantt</span><br><span class="line">    title 总流程</span><br><span class="line">    dateFormat  HH:mm</span><br><span class="line">    axisFormat %H:%M</span><br><span class="line">    section High Level</span><br><span class="line">    备菜               :crit, a, 00:00, 10m</span><br><span class="line">    腌制牛肉            :crit, b, after a, 30m</span><br><span class="line">    炒菜               :crit, c, after b, 20m</span><br><span class="line"></span><br><span class="line">    section Detailed View</span><br><span class="line">    预处理             :a1, 00:00, 10m</span><br><span class="line">    腌制牛肉           :a2, after a1, 30m</span><br><span class="line">    炒牛仔骨           :a3, after a2, 10m</span><br><span class="line">    加洋葱             :a4, after a3, 5m</span><br><span class="line">    加黑椒汁收汁        :a5, after a4, 5m</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="制作过程"><a href="#制作过程" class="headerlink" title="制作过程"></a>制作过程</h2><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><pre class="mermaid">gantt
+    title 总流程
+    dateFormat  HH:mm
+    axisFormat %H:%M
+    section High Level
+    备菜               :crit, a, 00:00, 10m
+    腌制牛肉            :crit, b, after a, 30m
+    炒菜               :crit, c, after b, 20m
+
+    section Detailed View
+    预处理             :a1, 00:00, 10m
+    腌制牛肉           :a2, after a1, 30m
+    炒牛仔骨           :a3, after a2, 10m
+    加洋葱             :a4, after a3, 5m
+    加黑椒汁收汁        :a5, after a4, 5m</pre>
 
 <h3 id="文字版"><a href="#文字版" class="headerlink" title="文字版"></a>文字版</h3><ol>
 <li>请直接购买厚度约 0.5-1cm的牛仔骨，砍断中间骨头，切成每块有半块骨头备用。</li>

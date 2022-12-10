@@ -31,7 +31,7 @@
 <meta property="og:image" content="http://cookbook.jq.mk/images/%E5%8F%B0%E6%B9%BE%E5%8D%A4%E8%82%89%E9%A5%AD/F0173F90-174E-464B-9217-66775EFF5E4C_1_105_c.jpeg">
 <meta property="og:image" content="http://cookbook.jq.mk/images/%E5%8F%B0%E6%B9%BE%E5%8D%A4%E8%82%89%E9%A5%AD/f_8szqUjlxzdvp4-VZ6meQ.jpg">
 <meta property="article:published_time" content="2022-12-07T02:28:04.000Z">
-<meta property="article:modified_time" content="2022-12-10T23:23:32.576Z">
+<meta property="article:modified_time" content="2022-12-10T23:29:19.370Z">
 <meta property="article:author" content="Multi">
 <meta property="article:tag" content="JQ">
 <meta name="twitter:card" content="summary">
@@ -185,7 +185,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2022-12-10 23:23:32" itemprop="dateModified" datetime="2022-12-10T23:23:32+00:00">2022-12-10</time>
+                <time title="Modified: 2022-12-10 23:29:19" itemprop="dateModified" datetime="2022-12-10T23:29:19+00:00">2022-12-10</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -232,7 +232,28 @@
 <li>猪肩胛骨 500g。</li>
 <li>鸡汤一罐&#x2F;鸡架一只。</li>
 </ol>
-<h2 id="制作过程"><a href="#制作过程" class="headerlink" title="制作过程"></a>制作过程</h2><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">gantt</span><br><span class="line">    title 总流程</span><br><span class="line">    dateFormat  HH:mm</span><br><span class="line">    axisFormat %H:%M</span><br><span class="line">    section High Level</span><br><span class="line">    高汤              :crit, a, 00:00, 2.5h</span><br><span class="line">    主菜              :crit, b, after a, 2h</span><br><span class="line">    section Detailed View</span><br><span class="line">    猪骨泡血水         :a1, 00:00, 0.5h</span><br><span class="line">    炖高汤            :a2, after a1, 2h</span><br><span class="line">    预处理所有材料      :b1, 00:30, 0.5h</span><br><span class="line">    五花肉焯水          :b2, after b1, 10m</span><br><span class="line">    五花肉切条          :b3, after b2, 10m</span><br><span class="line">    煸炒五花肉          :b4, after b3, 15m</span><br><span class="line"></span><br><span class="line">    加入高汤开始煮五花肉  :b5, after b4 a2, 5m</span><br><span class="line">    调味                :b6, after b5, 2m</span><br><span class="line">    小火慢炖             :b7, after b6, 83m</span><br><span class="line">    加入煮鸡蛋           :b8, after b7, 2m</span><br><span class="line">    小火慢炖             :b9, after b8, 23m</span><br><span class="line">    加入豆腐干           :b10, after b9, 2m</span><br><span class="line">    小火慢炖             :b11, after b10, 3m</span><br></pre></td></tr></table></figure>
+<h2 id="制作过程"><a href="#制作过程" class="headerlink" title="制作过程"></a>制作过程</h2><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><pre class="mermaid">gantt
+    title 总流程
+    dateFormat  HH:mm
+    axisFormat %H:%M
+    section High Level
+    高汤              :crit, a, 00:00, 2.5h
+    主菜              :crit, b, after a, 2h
+    section Detailed View
+    猪骨泡血水         :a1, 00:00, 0.5h
+    炖高汤            :a2, after a1, 2h
+    预处理所有材料      :b1, 00:30, 0.5h
+    五花肉焯水          :b2, after b1, 10m
+    五花肉切条          :b3, after b2, 10m
+    煸炒五花肉          :b4, after b3, 15m
+
+    加入高汤开始煮五花肉  :b5, after b4 a2, 5m
+    调味                :b6, after b5, 2m
+    小火慢炖             :b7, after b6, 83m
+    加入煮鸡蛋           :b8, after b7, 2m
+    小火慢炖             :b9, after b8, 23m
+    加入豆腐干           :b10, after b9, 2m
+    小火慢炖             :b11, after b10, 3m</pre>
 
 <h3 id="高汤"><a href="#高汤" class="headerlink" title="高汤"></a>高汤</h3><ol>
 <li>猪筒骨和猪肩胛骨泡水洗净，放入锅中加水至没过。如有鸡架，在此步骤加入。</li>
