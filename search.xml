@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>台湾卤肉饭</title>
+    <url>/2022/12/07/%E5%8F%B0%E6%B9%BE%E5%8D%A4%E8%82%89%E9%A5%AD/</url>
+    <content><![CDATA[<h2 id="Author"><a href="#Author" class="headerlink" title="Author"></a>Author</h2><p>JQ</p>
+<h2 id="成品"><a href="#成品" class="headerlink" title="成品"></a>成品</h2><p><img src="/../images/%E5%8F%B0%E6%B9%BE%E5%8D%A4%E8%82%89%E9%A5%AD/AC688C3A-1F06-4C5C-AE1C-1757ABE83293_1_201_a.jpeg" alt="锅里效果"><br><img src="/../images/%E5%8F%B0%E6%B9%BE%E5%8D%A4%E8%82%89%E9%A5%AD/F0173F90-174E-464B-9217-66775EFF5E4C_1_105_c.jpeg" alt="碗里效果"></p>
+<h2 id="用时"><a href="#用时" class="headerlink" title="用时"></a>用时</h2><p>主菜：3 小时</p>
+<p>高汤：2.5小时</p>
+<h2 id="配料表"><a href="#配料表" class="headerlink" title="配料表"></a>配料表</h2><h3 id="主菜"><a href="#主菜" class="headerlink" title="主菜"></a>主菜</h3><ol>
+<li>肥瘦相间的大块带皮五花肉，最好纹理均匀，不要有太厚的肥肉，每单位 500g。</li>
+<li>足量的姜，每单位20g （拇指大小）。</li>
+<li>大料，一个。</li>
+<li>油葱酥 （油炸洋葱碎），20g 。</li>
+<li>金兰油膏，每单位 50ml ，可根据鲜度和口味适量多加。</li>
+<li>生抽，根据口味轻重调节咸度。</li>
+<li>冰糖，大概五六粒，10g-15g 。</li>
+<li>白胡椒粉，少许，约 1g 。</li>
+<li>十三香，少许，约 1g 。</li>
+<li>白料酒，约 50g 。</li>
+<li>豆腐干，可选，少量，切成 0.5cm 的正方体。</li>
+<li>味精，可选。</li>
+<li>鸡蛋，数量任意，煮好剥开备用。煮约 20 分钟，之后置入冰水中冷却，然后剥开。</li>
+</ol>
+<h3 id="高汤（可以买现成的猪骨高汤）"><a href="#高汤（可以买现成的猪骨高汤）" class="headerlink" title="高汤（可以买现成的猪骨高汤）"></a>高汤（可以买现成的猪骨高汤）</h3><ol>
+<li>猪棒骨 500g。</li>
+<li>猪肩胛骨 500g。</li>
+<li>鸡汤一罐&#x2F;鸡架一只。</li>
+</ol>
+<h2 id="制作过程"><a href="#制作过程" class="headerlink" title="制作过程"></a>制作过程</h2><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><pre class="mermaid">gantt
+    title 总流程
+    dateFormat  HH:mm
+    axisFormat %H:%M
+    section High Level
+    高汤              :crit, a, 00:00, 2.5h
+    主菜              :crit, b, after a, 2h
+    section Detailed View
+    猪骨泡血水         :a1, 00:00, 0.5h
+    炖高汤            :a2, after a1, 2h
+    预处理所有材料      :b1, 00:30, 0.5h
+    五花肉焯水          :b2, after b1, 10m
+    五花肉切条          :b3, after b2, 10m
+    煸炒五花肉          :b4, after b3, 15m
+
+    加入高汤开始煮五花肉  :b5, after b4 a2, 5m
+    调味                :b6, after b5, 2m
+    小火慢炖             :b7, after b6, 83m
+    加入煮鸡蛋           :b8, after b7, 2m
+    小火慢炖             :b9, after b8, 23m
+    加入豆腐干           :b10, after b9, 2m
+    小火慢炖             :b11, after b10, 3m</pre>
+
+<h3 id="高汤"><a href="#高汤" class="headerlink" title="高汤"></a>高汤</h3><ol>
+<li>猪筒骨和猪肩胛骨泡水洗净，放入锅中加水至没过。如有鸡架，在此步骤加入。</li>
+<li>小火慢炖 2 小时。</li>
+<li>如有鸡汤，加入鸡汤。</li>
+<li>过滤高汤备用。</li>
+</ol>
+<h3 id="主菜-1"><a href="#主菜-1" class="headerlink" title="主菜"></a>主菜</h3><ol>
+<li>五花肉切成大长条，约 2cm 厚的大条，形状如下图所示，约下图一半宽度，否则无法煮熟。<br><img src="/../images/%E5%8F%B0%E6%B9%BE%E5%8D%A4%E8%82%89%E9%A5%AD/f_8szqUjlxzdvp4-VZ6meQ.jpg" alt="五花肉条"></li>
+<li>煮锅中加入冷水，五花肉下锅焯水约 10 分钟，至五花肉熟透。</li>
+<li>捞出五花肉，沿垂直皮的方向切成边长约 0.5cm 的正方形截面细条，高度为五花肉厚度。</li>
+<li>平底煎锅加入少许油，放入半层五花肉，这一步根据具体炉灶火力决定放多少肉。将肉煸至微黄，略微出油，即可出锅备用。锅不够大可以分批处理。</li>
+<li>煮锅加入高汤，加入煸好的五花肉，大火烧开。</li>
+<li>烧开过程中可以开始进行调味，加入切好的姜，大料，油葱酥，金兰油膏，生抽，冰糖，白胡椒粉，十三香，白料酒。</li>
+<li>锅开后改小火慢炖 1.5h，放入煮好剥开的鸡蛋。检查调味，如果鲜味不够，可以再加一些金兰油膏和味精。</li>
+<li>再煮约 0.5h，放入切好的豆腐干。</li>
+<li>再煮约 5 分钟，即可使用。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>炖菜</category>
+      </categories>
+      <tags>
+        <tag>JQ</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>TODO List</title>
+    <url>/2022/12/07/%E8%8F%9C%E8%B0%B1%E4%B8%8A%E7%BA%BF%E4%BA%86%EF%BC%81/</url>
+    <content><![CDATA[<p>这些是还未发布的菜谱</p>
+<ul>
+<li>日式煎鸡腿</li>
+<li>海鲜意面</li>
+<li>烤牛仔骨&#x2F;羊排</li>
+<li>麻辣香锅</li>
+<li>咖喱牛肉</li>
+<li>卤鸭腿饭</li>
+<li>皮蛋瘦肉粥</li>
+<li>大盘鸡</li>
+<li>冬瓜排骨汤</li>
+<li>干锅鱿鱼</li>
+<li>煎牛排 (Rib Eye&#x2F;New York Strip)</li>
+<li>避风塘龙虾</li>
+<li>红焖大虾</li>
+<li>法式酿鸡腿</li>
+<li>糖醋排骨</li>
+<li>摇摇烤羊腿</li>
+<li>干锅千页豆腐</li>
+<li>红烧牛腩</li>
+<li>清蒸鲈鱼</li>
+<li>蒜香排骨</li>
+<li>土豆烧牛肉</li>
+<li>红烧排骨</li>
+<li>酱牛肉</li>
+<li>惠灵顿羊腿</li>
+<li>关东煮</li>
+<li>煲仔饭</li>
+<li>秘鲁大拌菜</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>土豆牛坑腩</title>
+    <url>/2022/12/10/%E5%9C%9F%E8%B1%86%E7%89%9B%E5%9D%91%E8%85%A9/</url>
+    <content><![CDATA[<h2 id="Author"><a href="#Author" class="headerlink" title="Author"></a>Author</h2><p>Post: JQ<br>Recipe: 77</p>
+<h2 id="成品"><a href="#成品" class="headerlink" title="成品"></a>成品</h2><p><img src="/../images/%E5%9C%9F%E8%B1%86%E7%89%9B%E5%9D%91%E8%85%A9/8AEB3DEB-54AD-419A-9B0A-0C5BC7C7F3D3_1_105_c.jpeg" alt="摆盘"></p>
+<h2 id="用时"><a href="#用时" class="headerlink" title="用时"></a>用时</h2><p>1 小时</p>
+<h2 id="配料表"><a href="#配料表" class="headerlink" title="配料表"></a>配料表</h2><ol>
+<li>土豆 1 个</li>
+<li>牛坑腩（去骨牛肋排，Boneless Beef Short Ribs）500g - 1000g</li>
+<li>牛角椒 2 个</li>
+<li>青花椒 10g ，葱少量，姜 10g，蒜三瓣（可选），豆瓣酱 30g （3-4 teaspoon）</li>
+</ol>
+<h2 id="制作过程"><a href="#制作过程" class="headerlink" title="制作过程"></a>制作过程</h2><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><pre class="mermaid">gantt
+    title 总流程
+    dateFormat  HH:mm
+    axisFormat %H:%M
+    section High Level
+    备菜               :crit, a, 00:00, 10m
+    炒菜               :crit, b, after a, 50m
+
+    section Detailed View
+    预处理             :a1, 00:00, 10m
+    煎牛坑腩           :a2, after a1, 5m
+    爆香              :a3, after a2, 3m
+    炖牛坑腩           :a4, after a3, 30m
+    炖土豆             :a5, after a4, 10m
+    焖土豆             :a6, after a5, 2m</pre>
+
+<h3 id="文字版"><a href="#文字版" class="headerlink" title="文字版"></a>文字版</h3><ol>
+<li>土豆削皮，滚刀切成 3cm 左右直径的块，泡水备用。</li>
+<li>姜削皮，切成 1cm 左右的方块备用。</li>
+<li>葱取葱青，切成葱花备用。</li>
+<li>蒜剥皮切成小块备用。</li>
+<li>牛坑腩切成 3cm x 2cm x 2cm 左右的方块。</li>
+<li>平底锅加少许油，热锅加入牛坑腩，略微翻动至每面焦化，接近全熟，产生足够美拉德反应。</li>
+<li>不换锅，加少许油，加入姜蒜青花椒爆香，再加入豆瓣酱，继续加油，爆香至豆瓣酱炒出红油。</li>
+<li>加入料酒，搅动洗起糊在锅底的豆瓣酱，加入炒好牛坑腩，中火开盖炖约 30 min。</li>
+<li>加入土豆，盖上锅盖中小火再炖 10 min，至土豆可以被筷子捅动，但是土豆棱角分明没有变得很软。</li>
+<li>关火，再过5分钟等土豆自然焖熟。</li>
+<li>装盘，撒上葱花。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>炖菜</category>
+      </categories>
+      <tags>
+        <tag>77</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>日式牛肉饭</title>
+    <url>/2022/12/10/%E6%97%A5%E5%BC%8F%E7%89%9B%E8%82%89%E9%A5%AD/</url>
+    <content><![CDATA[<h2 id="Author"><a href="#Author" class="headerlink" title="Author"></a>Author</h2><p>Post: JQ<br>Recipe: JQ</p>
+<h2 id="成品"><a href="#成品" class="headerlink" title="成品"></a>成品</h2><p><img src="/../images/%E6%97%A5%E5%BC%8F%E7%89%9B%E8%82%89%E9%A5%AD/9B6F14D0-8013-4BFF-9B0C-DE1F84AE61CF_1_105_c.jpeg" alt="成品1"><br><img src="/../images/%E6%97%A5%E5%BC%8F%E7%89%9B%E8%82%89%E9%A5%AD/677BE5E2-F20C-4724-A81E-8CA725D63C9C_1_105_c.jpeg" alt="成品2"></p>
+<p>注：照烧鸡腿部分不在此菜谱中，请参考日式煎鸡腿。</p>
+<h2 id="用时"><a href="#用时" class="headerlink" title="用时"></a>用时</h2><p>20 分钟</p>
+<h2 id="配料表"><a href="#配料表" class="headerlink" title="配料表"></a>配料表</h2><ol>
+<li>火锅肥牛片 500g，提前解冻</li>
+<li>洋葱半个</li>
+<li>味啉 15 ml</li>
+<li>清酒 （或者白料酒） 50 ml</li>
+<li>万字酱油 约 20 ml，依据口味添加</li>
+<li>鲣鱼粉 （Hondashi Powder）5g</li>
+<li>日式拌饭撒料 可选</li>
+<li>西兰花胡萝卜配菜 可选</li>
+</ol>
+<h3 id="额外工具"><a href="#额外工具" class="headerlink" title="额外工具"></a>额外工具</h3><p>煮面漏网<br><img src="/../images/%E6%97%A5%E5%BC%8F%E7%89%9B%E8%82%89%E9%A5%AD/6e6776e7c12f189e2cbd979b9bdb2426.jpg" alt="煮面漏网"></p>
+<h2 id="制作过程"><a href="#制作过程" class="headerlink" title="制作过程"></a>制作过程</h2><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><pre class="mermaid">gantt
+    title 总流程
+    dateFormat  HH:mm
+    axisFormat %H:%M
+    section High Level
+    备菜               :crit, a, 00:00,5m
+    煮菜               :crit, b, after a, 15m
+    
+
+    section Detailed View
+    切洋葱             :a1, 00:00, 5m
+    烧水              :a2, after a1, 5m
+    炒洋葱            :a3, after a1, 5m
+    煮肥牛             :a4, after a2 a3, 10m
+    用另一个锅焯配菜     :a5, after a2, 5m</pre>
+
+<h3 id="文字版"><a href="#文字版" class="headerlink" title="文字版"></a>文字版</h3><ol>
+<li>洋葱切丝，用炒锅翻炒均匀备用。</li>
+<li>烧两锅水，一锅用来煮牛肉，一锅用来焯配菜。煮牛肉的锅建议深一点但是口径不要太大，适合使用小奶锅。蔬菜烫约1分钟即可出锅。</li>
+<li>在煮牛肉的锅中加入味啉，清酒，万字酱油，鲣鱼粉。</li>
+<li>使用煮面漏网，加入少量炒好洋葱，再加入少量肥牛，放入煮牛肉的锅中不断用筷子搅动，约30秒即可出锅。</li>
+<li>重复步骤 4，直到洋葱和牛肉用完。</li>
+<li>撇去煮锅上层浮沫，取一定量底汤备用。</li>
+<li>米饭上铺好肥牛，点缀配菜，浇上底汤，撒上拌饭撒料即可食用。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>日料</category>
+      </categories>
+      <tags>
+        <tag>JQ</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>黑椒牛仔骨</title>
+    <url>/2022/12/10/%E9%BB%91%E6%A4%92%E7%89%9B%E4%BB%94%E9%AA%A8/</url>
+    <content><![CDATA[<h2 id="Author"><a href="#Author" class="headerlink" title="Author"></a>Author</h2><p>Post: JQ<br>Recipe: 77</p>
+<h2 id="成品"><a href="#成品" class="headerlink" title="成品"></a>成品</h2><p><img src="/../images/%E9%BB%91%E6%A4%92%E7%89%9B%E4%BB%94%E9%AA%A8/78173D5A-545C-4E81-9558-A4116236156F_1_105_c.jpeg" alt="摆盘"></p>
+<h2 id="用时"><a href="#用时" class="headerlink" title="用时"></a>用时</h2><p>30 分钟制作<br>30 分钟等待</p>
+<h2 id="配料表"><a href="#配料表" class="headerlink" title="配料表"></a>配料表</h2><ol>
+<li>新鲜牛仔骨 1000g</li>
+<li>黑椒粉 10g</li>
+<li>红洋葱 0.5-1 头</li>
+<li>彩椒 可选 1 个</li>
+<li>西兰花 可选 少许</li>
+<li>黑椒汁配料：蚝油 0.5 teaspoon，生抽 0.5 teaspoon，水 50ml，淀粉少许，糖 1 teaspoon，研磨黑椒粉（grind black pepper） 20g</li>
+</ol>
+<h2 id="制作过程"><a href="#制作过程" class="headerlink" title="制作过程"></a>制作过程</h2><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><pre class="mermaid">gantt
+    title 总流程
+    dateFormat  HH:mm
+    axisFormat %H:%M
+    section High Level
+    备菜               :crit, a, 00:00, 10m
+    腌制牛肉            :crit, b, after a, 30m
+    炒菜               :crit, c, after b, 20m
+
+    section Detailed View
+    预处理             :a1, 00:00, 10m
+    腌制牛肉           :a2, after a1, 30m
+    炒牛仔骨           :a3, after a2, 10m
+    加洋葱             :a4, after a3, 5m
+    加黑椒汁收汁        :a5, after a4, 5m</pre>
+
+<h3 id="文字版"><a href="#文字版" class="headerlink" title="文字版"></a>文字版</h3><ol>
+<li>请直接购买厚度约 0.5-1cm的牛仔骨，砍断中间骨头，切成每块有半块骨头备用。</li>
+<li>牛仔骨加入黑椒，生抽腌制约 1 小时。</li>
+<li>洋葱切丝备用。</li>
+<li>调制黑椒汁：蚝油 0.5 teaspoon，生抽 0.5 teaspoon，水 50ml，淀粉少许，糖 1 teaspoon，研磨黑椒粉（grind black pepper） 20g</li>
+<li>使用平底锅，宽油，热锅冷油下腌好牛仔骨，提前沥干不要带水下锅。</li>
+<li>牛仔骨中火翻炒约 5-10 min 至产生足够焦化后，加入洋葱，继续中火翻炒至洋葱半生。如有可选材料比如彩椒，在炒完洋葱后加入。</li>
+<li>加入黑椒汁，中火略微收汁，即可装盘。西兰花等配菜焯水直接装盘，无需下锅。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>炒菜</category>
+      </categories>
+      <tags>
+        <tag>77</tag>
+      </tags>
+  </entry>
+</search>
