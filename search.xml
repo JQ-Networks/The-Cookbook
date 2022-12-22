@@ -88,7 +88,6 @@
 <li>卤鸭腿饭</li>
 <li>皮蛋瘦肉粥</li>
 <li>大盘鸡</li>
-<li>冬瓜排骨汤</li>
 <li>干锅鱿鱼</li>
 <li>煎牛排 (Rib Eye&#x2F;New York Strip)</li>
 <li>避风塘龙虾</li>
@@ -208,6 +207,78 @@
       </categories>
       <tags>
         <tag>JQ</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>海鲜意面</title>
+    <url>/2022/12/22/%E6%B5%B7%E9%B2%9C%E6%84%8F%E9%9D%A2/</url>
+    <content><![CDATA[<h2 id="Author"><a href="#Author" class="headerlink" title="Author"></a>Author</h2><p>Post: JQ<br>Recipe: 77</p>
+<h2 id="成品"><a href="#成品" class="headerlink" title="成品"></a>成品</h2><p><img src="/../images/%E6%B5%B7%E9%B2%9C%E6%84%8F%E9%9D%A2/2B25959D-B7DE-4BB0-93C8-336C3ABB16AD.jpg" alt="盘中版本"><br><img src="/../images/%E6%B5%B7%E9%B2%9C%E6%84%8F%E9%9D%A2/701A17D3-43F2-412A-A045-F42A641254BB.jpg" alt="端锅版本"></p>
+<h2 id="用时"><a href="#用时" class="headerlink" title="用时"></a>用时</h2><p>1 小时</p>
+<h2 id="配料表"><a href="#配料表" class="headerlink" title="配料表"></a>配料表</h2><ol>
+<li>鱿鱼须 50g。</li>
+<li>贻贝和蛤（Mussels and clams）各约 5 个。</li>
+<li>鲜虾 100g，可以用虾仁。</li>
+<li>青红椒 50g。</li>
+<li>洋葱半个。</li>
+<li>樱桃番茄10个&#x2F;大番茄一个。</li>
+<li>蒜两瓣，切末。</li>
+<li>白葡萄酒 50ml。</li>
+<li>罗勒叶 （Parsley）适量。</li>
+<li>新鲜的粉状 Parmesan （不知道中文是啥） 30g。</li>
+</ol>
+<p><img src="/../images/%E6%B5%B7%E9%B2%9C%E6%84%8F%E9%9D%A2/6H65C.webp" alt="Parmesan"></p>
+<h2 id="制作过程"><a href="#制作过程" class="headerlink" title="制作过程"></a>制作过程</h2><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><pre class="mermaid">gantt
+    title 总流程
+    dateFormat  HH:mm
+    axisFormat %H:%M
+    section High Level
+    备菜               :crit, a, 00:00, 30m
+    烩面               :crit, b, after a, 20m
+
+    section Detailed View
+    煮意面             :a1, 00:00, 15m
+    煮熟所有贝类        :a2, 00:00, 15m
+    贝类去壳           :a3, after a2, 15m
+    收汁               :a4, after a2, 10m
+    新鲜虾去壳          :a5, 00:00, 10m
+    罗勒切成末          :a6, 00:00, 2m
+    青红椒切丝          :a7, 00:00, 2m
+    番茄切丁            :a8, 00:00, 2m
+    蒜切成末            :a9, 00:00, 2m
+
+    炒蒜，洋葱，番茄           :b1, after a1 a2 a3 a4 a5 a6, 5m
+    加入意面，贝类             :b2, after b1, 5m
+    加入煮完贝类的汁，白葡萄酒   :b3, after b2, 1m
+    加入虾仁，煮至断生          :b4, after b3, 5m
+    加入青红椒                :b5, after b4, 1m
+    煮两分钟                 :b6, after b5, 2m
+    加入 Parmesan 粉         :b7, after b6, 1m
+    搅匀出锅                 :b8, after b7, 1m
+    撒罗勒叶                 :b9, after b7, 1m</pre>
+
+<h3 id="文字版"><a href="#文字版" class="headerlink" title="文字版"></a>文字版</h3><ol>
+<li>意面提前煮好，开水下锅煮约7-15分钟，根据面的种类和粗细以及所需口感控制。这一步建议煮至微硬，煮熟但是略硬。煮好沥干备用。</li>
+<li>贝类洗刷干净表面，提前吐好沙，准备一个煮锅加入刚好没过贝类的水，煮10-15分钟。</li>
+<li>贝类出锅，撬开所有贝壳，去掉内脏，取出贝肉备用。煮完贝类的水取出一部分继续收汁备用。</li>
+<li>新鲜的虾去头去壳去虾线，可以用虾仁替代但是风味有所损失。</li>
+<li>蒜切成末备用。</li>
+<li>罗勒切末备用。</li>
+<li>青红椒去瓤切丝备用。</li>
+<li>番茄切成丁备用。</li>
+<li>取一平底锅，热锅冷用，下入蒜，洋葱，炒香，再下入番茄，继续炒香。</li>
+<li>加入煮好沥干意面和贝类，生虾仁，加入收完汁的煮贝水，白葡萄酒，煮 5 分钟至虾仁断生。</li>
+<li>加入青红椒，搅拌一下再煮一两分钟。</li>
+<li>加入 Parmesan 粉末，轻轻搅拌均匀出锅，撒上罗勒叶即可食用。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>面食</category>
+        <category>西餐</category>
+      </categories>
+      <tags>
+        <tag>JQ</tag>
+        <tag>77</tag>
       </tags>
   </entry>
   <entry>
