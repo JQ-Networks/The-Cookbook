@@ -34,7 +34,7 @@ jobs:
           tokenSuffix: '}'
           files: '["_config_theme.yml"]'
         env:
-          GITALK_CLIENT_ID: ${{ secrets.GITALK_CLIENT_SECRET }}
+          GITALK_CLIENT_ID: ${{ secrets.GITALK_CLIENT_ID }}
           GITALK_CLIENT_SECRET: ${{ secrets.GITALK_CLIENT_SECRET }}
       - name: override theme config
         run: cp _config_theme.yml themes/next/_config.yml
