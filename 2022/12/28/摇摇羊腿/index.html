@@ -28,8 +28,8 @@
 <meta property="og:description" content="AuthorPost: JQRecipe: 77 成品   用时2 小时制作12 小时等待 配料表 羊腿 4 根。 紫洋葱 1 个。 姜 100g。 料酒 200 ml。 生抽 40 ml，约和料酒5：1。 小米椒 3 个。  制作过程流程gantt     title 总流程     dateFormat  HH:mm     axisFormat %H:%M     section High">
 <meta property="og:locale">
 <meta property="og:image" content="http://cookbook.jq.mk/images/%E6%91%87%E6%91%87%E7%BE%8A%E8%85%BF/7B9957AF-78C6-486C-8670-E5AE5F456E6B_1_105_c.jpeg">
-<meta property="article:published_time" content="2022-12-28T01:34:32.000Z">
-<meta property="article:modified_time" content="2022-12-29T00:32:57.950Z">
+<meta property="article:published_time" content="2022-12-28T06:34:32.000Z">
+<meta property="article:modified_time" content="2022-12-29T00:32:20.455Z">
 <meta property="article:author" content="Multi">
 <meta property="article:tag" content="JQ">
 <meta property="article:tag" content="77">
@@ -209,14 +209,14 @@
               </span>
               <span class="post-meta-item-text">Posted on</span>
 
-              <time title="Created: 2022-12-28 01:34:32" itemprop="dateCreated datePublished" datetime="2022-12-28T01:34:32+00:00">2022-12-28</time>
+              <time title="Created: 2022-12-28 06:34:32" itemprop="dateCreated datePublished" datetime="2022-12-28T06:34:32+00:00">2022-12-28</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2022-12-29 00:32:57" itemprop="dateModified" datetime="2022-12-29T00:32:57+00:00">2022-12-29</time>
+                <time title="Modified: 2022-12-29 00:32:20" itemprop="dateModified" datetime="2022-12-29T00:32:20+00:00">2022-12-29</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -319,6 +319,7 @@
 
           </div>
           
+    <div class="comments" id="gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -491,6 +492,26 @@ if (document.querySelectorAll('pre.mermaid').length) {
   
 
   
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : '991d6b67f8c12be95894',
+      clientSecret: '080f3f9aa31d18f4050efadbe22d88757a816234',
+      repo        : 'The-Cookbook',
+      owner       : 'JQ-Networks',
+      admin       : ['jqqqqqqqqqq'],
+      id          : 'f73a116567c46eb06f139f90988003b2',
+        language: '',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
 
 </body>
 </html>
