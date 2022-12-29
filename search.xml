@@ -93,7 +93,6 @@
 <li>红焖大虾</li>
 <li>法式酿鸡腿</li>
 <li>糖醋排骨</li>
-<li>摇摇烤羊腿</li>
 <li>干锅千页豆腐</li>
 <li>红烧牛腩</li>
 <li>清蒸鲈鱼</li>
@@ -209,6 +208,63 @@
       </tags>
   </entry>
   <entry>
+    <title>摇摇羊腿</title>
+    <url>/2022/12/28/%E6%91%87%E6%91%87%E7%BE%8A%E8%85%BF/</url>
+    <content><![CDATA[<h2 id="Author"><a href="#Author" class="headerlink" title="Author"></a>Author</h2><p>Post: JQ<br>Recipe: 77</p>
+<h2 id="成品"><a href="#成品" class="headerlink" title="成品"></a>成品</h2><p><img src="/../images/%E6%91%87%E6%91%87%E7%BE%8A%E8%85%BF/7B9957AF-78C6-486C-8670-E5AE5F456E6B_1_105_c.jpeg" alt="烤好成品"></p>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/NZGJpfv48mk" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
+
+<h2 id="用时"><a href="#用时" class="headerlink" title="用时"></a>用时</h2><p>2 小时制作<br>12 小时等待</p>
+<h2 id="配料表"><a href="#配料表" class="headerlink" title="配料表"></a>配料表</h2><ol>
+<li>羊腿 4 根。</li>
+<li>紫洋葱 1 个。</li>
+<li>姜 100g。</li>
+<li>料酒 200 ml。</li>
+<li>生抽 40 ml，约和料酒5：1。</li>
+<li>小米椒 3 个。</li>
+</ol>
+<h2 id="制作过程"><a href="#制作过程" class="headerlink" title="制作过程"></a>制作过程</h2><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><pre class="mermaid">gantt
+    title 总流程
+    dateFormat  HH:mm
+    axisFormat %H:%M
+    section High Level
+    预处理                      :crit, a, 00:00, 15m
+    腌制                        :crit, b, after a, 12h
+    烤制                        :crit, c, after b, 50m
+
+    section Detailed View
+    切洋葱/姜                   :a1, 00:00, 5m
+    打碎原料                    :a2, after a1, 5m
+    洗净羊腿                    :a3, 00:00, 5m
+    装袋腌制                    :a4, after a2 a3, 5m
+  
+    取出羊腿装烤盘               :c1, after b, 5m
+    350℉ 烤 30分钟              :c2, after c1, 30m
+    翻面，350℉ 烤 15分钟         :c3, after c2, 15m
+    500℉ 烤 5分钟上脆            :c4, after c3, 5m</pre>
+
+<h3 id="文字版"><a href="#文字版" class="headerlink" title="文字版"></a>文字版</h3><ol>
+<li>准备新鲜羊腿 4 个，最好不要买泡在血水中的那种，会比较腥臭。干燥保存的羊腿没有什么异味。</li>
+<li>紫洋葱 1 个，去外皮切四瓣备用。</li>
+<li>姜一大块约 100g，去皮备用。</li>
+<li>洋葱和姜加入搅拌机，倒入一半高度料酒，再倒入约料酒 <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.816ex;" xmlns="http://www.w3.org/2000/svg" width="1.795ex" height="2.773ex" role="img" focusable="false" viewBox="0 -864.9 793.6 1225.5" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-1-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path><path id="MJX-1-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mfrac"><g data-mml-node="mn" transform="translate(220,394) scale(0.707)"><use data-c="31" xlink:href="#MJX-1-TEX-N-31"></use></g><g data-mml-node="mn" transform="translate(220,-345) scale(0.707)"><use data-c="35" xlink:href="#MJX-1-TEX-N-35"></use></g><rect width="553.6" height="60" x="120" y="220"></rect></g></g></g></svg></mjx-container> 的生抽。</li>
+<li>将所有材料搅拌至没有大块即可，不需要非常精细。</li>
+<li>取一个大号可封口食品袋，放入洗好的羊腿，再倒入搅拌好的腌料，挤出袋中空气，放入冰箱腌制 12 小时。注意，食品袋可能漏水，建议垫个盘子或者塑料盒。</li>
+<li>12 小时后，准备一个烤盘，铺上锡箔纸，将羊腿平行摆放，留有一定间距。烤箱预热 350℉ （约 180℃ ）。选择 bake 而不是 broil。</li>
+<li>预热完毕后放入羊腿，烤 30-40 分钟后翻面，再烤 15 分钟至两面完全熟透且完全变色。翻面标准是羊腿上面完全没有粉色。</li>
+<li>再次翻面，将烤箱设置为 broil，500℉ (260℃)或更高烤制 5 分钟即可出炉。</li>
+<li>摇摇羊腿制作：将烤羊腿晾凉至不烫手，放入干净的食品袋，加入烤串料，摇动至羊腿均匀沾上烤串料即可食用。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>烧烤</category>
+      </categories>
+      <tags>
+        <tag>JQ</tag>
+        <tag>77</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>海鲜意面</title>
     <url>/2022/12/22/%E6%B5%B7%E9%B2%9C%E6%84%8F%E9%9D%A2/</url>
     <content><![CDATA[<h2 id="Author"><a href="#Author" class="headerlink" title="Author"></a>Author</h2><p>Post: JQ<br>Recipe: 77</p>
@@ -223,7 +279,7 @@
 <li>樱桃番茄10个&#x2F;大番茄一个。</li>
 <li>蒜两瓣，切末。</li>
 <li>白葡萄酒 50ml。</li>
-<li>罗勒叶 （Parsley）适量。</li>
+<li>罗勒叶 （Basil）适量。</li>
 <li>新鲜的粉状 Parmesan （不知道中文是啥） 30g。</li>
 </ol>
 <p><img src="/../images/%E6%B5%B7%E9%B2%9C%E6%84%8F%E9%9D%A2/6H65C.webp" alt="Parmesan"></p>
@@ -337,6 +393,53 @@
       </tags>
   </entry>
   <entry>
+    <title>黑椒牛仔骨</title>
+    <url>/2022/12/10/%E9%BB%91%E6%A4%92%E7%89%9B%E4%BB%94%E9%AA%A8/</url>
+    <content><![CDATA[<h2 id="Author"><a href="#Author" class="headerlink" title="Author"></a>Author</h2><p>Post: JQ<br>Recipe: 77</p>
+<h2 id="成品"><a href="#成品" class="headerlink" title="成品"></a>成品</h2><p><img src="/../images/%E9%BB%91%E6%A4%92%E7%89%9B%E4%BB%94%E9%AA%A8/78173D5A-545C-4E81-9558-A4116236156F_1_105_c.jpeg" alt="摆盘"></p>
+<h2 id="用时"><a href="#用时" class="headerlink" title="用时"></a>用时</h2><p>30 分钟制作<br>30 分钟等待</p>
+<h2 id="配料表"><a href="#配料表" class="headerlink" title="配料表"></a>配料表</h2><ol>
+<li>新鲜牛仔骨 1000g</li>
+<li>黑椒粉 10g</li>
+<li>红洋葱 0.5-1 头</li>
+<li>彩椒 可选 1 个</li>
+<li>西兰花 可选 少许</li>
+<li>黑椒汁配料：蚝油 0.5 teaspoon，生抽 0.5 teaspoon，水 50ml，淀粉少许，糖 1 teaspoon，研磨黑椒粉（grind black pepper） 20g</li>
+</ol>
+<h2 id="制作过程"><a href="#制作过程" class="headerlink" title="制作过程"></a>制作过程</h2><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><pre class="mermaid">gantt
+    title 总流程
+    dateFormat  HH:mm
+    axisFormat %H:%M
+    section High Level
+    备菜               :crit, a, 00:00, 10m
+    腌制牛肉            :crit, b, after a, 30m
+    炒菜               :crit, c, after b, 20m
+
+    section Detailed View
+    预处理             :a1, 00:00, 10m
+    腌制牛肉           :a2, after a1, 30m
+    炒牛仔骨           :a3, after a2, 10m
+    加洋葱             :a4, after a3, 5m
+    加黑椒汁收汁        :a5, after a4, 5m</pre>
+
+<h3 id="文字版"><a href="#文字版" class="headerlink" title="文字版"></a>文字版</h3><ol>
+<li>请直接购买厚度约 0.5-1cm的牛仔骨，砍断中间骨头，切成每块有半块骨头备用。</li>
+<li>牛仔骨加入黑椒，生抽腌制约 1 小时。</li>
+<li>洋葱切丝备用。</li>
+<li>调制黑椒汁：蚝油 0.5 teaspoon，生抽 0.5 teaspoon，水 50ml，淀粉少许，糖 1 teaspoon，研磨黑椒粉（grind black pepper） 20g</li>
+<li>使用平底锅，宽油，热锅冷油下腌好牛仔骨，提前沥干不要带水下锅。</li>
+<li>牛仔骨中火翻炒约 5-10 min 至产生足够焦化后，加入洋葱，继续中火翻炒至洋葱半生。如有可选材料比如彩椒，在炒完洋葱后加入。</li>
+<li>加入黑椒汁，中火略微收汁，即可装盘。西兰花等配菜焯水直接装盘，无需下锅。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>炒菜</category>
+      </categories>
+      <tags>
+        <tag>77</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>葱爆羊肉</title>
     <url>/2022/12/15/%E8%91%B1%E7%88%86%E7%BE%8A%E8%82%89/</url>
     <content><![CDATA[<h2 id="Author"><a href="#Author" class="headerlink" title="Author"></a>Author</h2><p>Post: JQ<br>Recipe: 77</p>
@@ -383,53 +486,6 @@
       </categories>
       <tags>
         <tag>JQ</tag>
-        <tag>77</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>黑椒牛仔骨</title>
-    <url>/2022/12/10/%E9%BB%91%E6%A4%92%E7%89%9B%E4%BB%94%E9%AA%A8/</url>
-    <content><![CDATA[<h2 id="Author"><a href="#Author" class="headerlink" title="Author"></a>Author</h2><p>Post: JQ<br>Recipe: 77</p>
-<h2 id="成品"><a href="#成品" class="headerlink" title="成品"></a>成品</h2><p><img src="/../images/%E9%BB%91%E6%A4%92%E7%89%9B%E4%BB%94%E9%AA%A8/78173D5A-545C-4E81-9558-A4116236156F_1_105_c.jpeg" alt="摆盘"></p>
-<h2 id="用时"><a href="#用时" class="headerlink" title="用时"></a>用时</h2><p>30 分钟制作<br>30 分钟等待</p>
-<h2 id="配料表"><a href="#配料表" class="headerlink" title="配料表"></a>配料表</h2><ol>
-<li>新鲜牛仔骨 1000g</li>
-<li>黑椒粉 10g</li>
-<li>红洋葱 0.5-1 头</li>
-<li>彩椒 可选 1 个</li>
-<li>西兰花 可选 少许</li>
-<li>黑椒汁配料：蚝油 0.5 teaspoon，生抽 0.5 teaspoon，水 50ml，淀粉少许，糖 1 teaspoon，研磨黑椒粉（grind black pepper） 20g</li>
-</ol>
-<h2 id="制作过程"><a href="#制作过程" class="headerlink" title="制作过程"></a>制作过程</h2><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><pre class="mermaid">gantt
-    title 总流程
-    dateFormat  HH:mm
-    axisFormat %H:%M
-    section High Level
-    备菜               :crit, a, 00:00, 10m
-    腌制牛肉            :crit, b, after a, 30m
-    炒菜               :crit, c, after b, 20m
-
-    section Detailed View
-    预处理             :a1, 00:00, 10m
-    腌制牛肉           :a2, after a1, 30m
-    炒牛仔骨           :a3, after a2, 10m
-    加洋葱             :a4, after a3, 5m
-    加黑椒汁收汁        :a5, after a4, 5m</pre>
-
-<h3 id="文字版"><a href="#文字版" class="headerlink" title="文字版"></a>文字版</h3><ol>
-<li>请直接购买厚度约 0.5-1cm的牛仔骨，砍断中间骨头，切成每块有半块骨头备用。</li>
-<li>牛仔骨加入黑椒，生抽腌制约 1 小时。</li>
-<li>洋葱切丝备用。</li>
-<li>调制黑椒汁：蚝油 0.5 teaspoon，生抽 0.5 teaspoon，水 50ml，淀粉少许，糖 1 teaspoon，研磨黑椒粉（grind black pepper） 20g</li>
-<li>使用平底锅，宽油，热锅冷油下腌好牛仔骨，提前沥干不要带水下锅。</li>
-<li>牛仔骨中火翻炒约 5-10 min 至产生足够焦化后，加入洋葱，继续中火翻炒至洋葱半生。如有可选材料比如彩椒，在炒完洋葱后加入。</li>
-<li>加入黑椒汁，中火略微收汁，即可装盘。西兰花等配菜焯水直接装盘，无需下锅。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>炒菜</category>
-      </categories>
-      <tags>
         <tag>77</tag>
       </tags>
   </entry>
