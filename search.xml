@@ -489,4 +489,56 @@
         <tag>77</tag>
       </tags>
   </entry>
+  <entry>
+    <title>芒果哈瓦那辣酱鸡胸</title>
+    <url>/2023/01/24/%E8%8A%92%E6%9E%9C%E5%93%88%E7%93%A6%E9%82%A3%E8%BE%A3%E9%85%B1%E9%B8%A1%E8%83%B8/</url>
+    <content><![CDATA[<h2 id="Author"><a href="#Author" class="headerlink" title="Author"></a>Author</h2><p>Recipe: Sheron</p>
+<h2 id="成品"><a href="#成品" class="headerlink" title="成品"></a>成品</h2><p>有空再拍</p>
+<h2 id="用时"><a href="#用时" class="headerlink" title="用时"></a>用时</h2><p>0.5 小时 （处理+烤制鸡胸约 25 分钟，制作酱汁约 10 分钟）</p>
+<h2 id="配料表"><a href="#配料表" class="headerlink" title="配料表"></a>配料表</h2><ol>
+<li>鸡胸肉（换成鸡翅鸡腿也完全 ok）</li>
+<li>蒜粉</li>
+<li>洋葱粉</li>
+<li>芒果哈瓦那辣酱 Mango Habanero Sauce</li>
+<li>黄油</li>
+<li>糖（备选）</li>
+<li>辣椒粉（备选）</li>
+</ol>
+<h2 id="制作过程"><a href="#制作过程" class="headerlink" title="制作过程"></a>制作过程</h2><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><pre class="mermaid">gantt
+    title 总流程
+    dateFormat  HH:mm
+    axisFormat %H:%M
+    section High Level
+    预制    :crit, a, 00:00, 25m
+    制作    :crit, b, 00:20, 10m
+
+    section 预制
+    预处理           :a1, 00:00, 5m
+    烤鸡胸           :a2, after a1, 20m
+
+    section 制作
+    混合酱汁        :b1, 00:20, 5m
+    加热           :b2, after b1, 5m</pre>
+
+<p>注：该流程图展示的是「一次性制作」的流程，实操中可在预制阶段制作大量烤鸡胸冷藏，食用时直接参考制作阶段。</p>
+<h3 id="文字版"><a href="#文字版" class="headerlink" title="文字版"></a>文字版</h3><h4 id="预制"><a href="#预制" class="headerlink" title="预制"></a>预制</h4><ol>
+<li>鸡胸肉切成鸡柳串大小，如果买回来的已经是条装就不用切了</li>
+<li>鸡胸肉放进烤盘，撒蒜粉和洋葱粉均匀涂抹双面</li>
+<li>烤箱 400 华氏度加热约 20 分钟，如果鸡胸切得比较厚，可以中间进行一次反面</li>
+<li>20 分钟后从烤箱里拿出来，留下本次要吃的分量，剩下的放入冰箱；冷藏可以保存接近一个周，但如果一时半会用不上还是建议冷冻</li>
+</ol>
+<h4 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h4><ol>
+<li>很多黄油热锅，然后往锅里加芒果哈瓦那辣酱</li>
+<li>根据自己的口味对哈瓦那辣酱进行调味：大多数情况下，想要接近餐馆的口感，至少要加入一部分糖调味；以笔者使用的 Whole Foods 贴牌 Mango Habanero Coconut Sauce 为例，原本的酱汁不够辣，还要加入辣椒粉，不建议使用美国本土的辣椒粉，不够辣，但也别加五香粉之类的，花椒孜然什么的加进芒果酱里味道非常怪。</li>
+<li>待酱汁加热到透明琥珀色后加入鸡胸肉，均匀加热几分钟即可</li>
+</ol>
+<p>注：不建议将这一步得到的鸡胸芒果酱混合物放入冰箱冷藏，因为芒果酱会让鸡胸出汁流失水分；酱汁冷却后色泽会变浑浊，生吃口感会变差</p>
+]]></content>
+      <categories>
+        <category>墨西哥菜</category>
+      </categories>
+      <tags>
+        <tag>Sheron</tag>
+      </tags>
+  </entry>
 </search>
