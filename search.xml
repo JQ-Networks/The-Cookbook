@@ -490,6 +490,105 @@
       </tags>
   </entry>
   <entry>
+    <title>慢煮牛仔骨</title>
+    <url>/2023/01/27/%E6%85%A2%E7%85%AE%E7%89%9B%E4%BB%94%E9%AA%A8/</url>
+    <content><![CDATA[<h2 id="Author"><a href="#Author" class="headerlink" title="Author"></a>Author</h2><p>Post: JQ<br>Recipe: 77</p>
+<h2 id="成品"><a href="#成品" class="headerlink" title="成品"></a>成品</h2><p><img src="/../images/%E6%85%A2%E7%85%AE%E7%89%9B%E4%BB%94%E9%AA%A8/photo_2023-01-27%2001.25.19.jpeg" alt="成品"></p>
+<h2 id="一图流"><a href="#一图流" class="headerlink" title="一图流"></a>一图流</h2><p><img src="/../images/%E6%85%A2%E7%85%AE%E7%89%9B%E4%BB%94%E9%AA%A8/2023-01-27%2001.28.16.jpg" alt="77出品"></p>
+<h2 id="用时"><a href="#用时" class="headerlink" title="用时"></a>用时</h2><p>4 小时</p>
+<h2 id="配料表"><a href="#配料表" class="headerlink" title="配料表"></a>配料表</h2><ol>
+<li>English cut beef short rib 竖切牛仔骨 1000g。</li>
+<li>西芹，胡萝卜，西红柿各 1 个。</li>
+<li>红酒 100 ml。</li>
+<li>Rosemary（迷迭香），Thyme（百里香）各少许。</li>
+<li>Beef Stock 牛骨汤 1L。</li>
+<li>盐，黑胡椒依据口味添加。</li>
+<li>摆盘可选用甜味水果，如苹果，橙子。</li>
+</ol>
+<h2 id="制作过程"><a href="#制作过程" class="headerlink" title="制作过程"></a>制作过程</h2><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><pre class="mermaid">gantt
+    title 总流程
+    dateFormat  HH:mm
+    axisFormat %H:%M
+    section High Level
+    备菜               :crit, a, 00:00, 30m
+    烤箱               :crit, b, after a, 3h
+    收尾               :crit, c, after b, 5m
+
+    section Detailed View
+    预处理             :a1, 00:00, 15m
+    煎牛仔骨           :a2, after a1, 5m
+    熬制底汤           :a3, after a2, 10m
+    烤箱处理           :b1, after a, 3h
+    收汁              :c1, after b, 5m</pre>
+
+<h3 id="图文步骤"><a href="#图文步骤" class="headerlink" title="图文步骤"></a>图文步骤</h3><ol>
+<li>盐和黑胡椒腌制牛仔骨 10 分钟。<br><img src="/../images/%E6%85%A2%E7%85%AE%E7%89%9B%E4%BB%94%E9%AA%A8/photo_2023-01-27%2001.25.30.jpeg" alt="腌制"></li>
+<li>西芹，胡萝卜切段备用，西红柿去皮切块备用。</li>
+<li>取一平底锅，油温 6 成热下入牛仔骨，煎至外表焦化，取出备用。<br><img src="/../images/%E6%85%A2%E7%85%AE%E7%89%9B%E4%BB%94%E9%AA%A8/photo_2023-01-27%2001.25.29.jpeg" alt="煎至焦化"><br><img src="/../images/%E6%85%A2%E7%85%AE%E7%89%9B%E4%BB%94%E9%AA%A8/photo_2023-01-27%2001.25.28.jpeg" alt="焦化完成"></li>
+<li>另取一锅，放入切好的西芹，胡萝卜，西红柿，炒制西红柿化开，然后加水没过。<br><img src="/../images/%E6%85%A2%E7%85%AE%E7%89%9B%E4%BB%94%E9%AA%A8/photo_2023-01-27%2001.25.27.jpeg" alt="蔬菜乱炖"><br><img src="/../images/%E6%85%A2%E7%85%AE%E7%89%9B%E4%BB%94%E9%AA%A8/photo_2023-01-27%2001.25.26.jpeg" alt="乱炖完成"></li>
+<li>开锅后加入红酒，Rosemary 和 Thyme，煮两三分钟。<br><img src="/../images/%E6%85%A2%E7%85%AE%E7%89%9B%E4%BB%94%E9%AA%A8/photo_2023-01-27%2001.25.25.jpeg" alt="加入香草"></li>
+<li>烤箱预热 $ 275 \degree F$ &#x2F; $135\degree C$。</li>
+<li>换一口深一点的锅，加入煎好的牛仔骨，加入牛骨汤，盖盖煮一小会，无需开锅。<br><img src="/../images/%E6%85%A2%E7%85%AE%E7%89%9B%E4%BB%94%E9%AA%A8/photo_2023-01-27%2001.25.24.jpeg" alt="加入牛肉"></li>
+<li>锅带盖放入烤箱，定时 3h。</li>
+<li>3h 后取出牛仔骨，过滤汤汁，去除上层油脂，小火收汁成酱。</li>
+<li>将酱汁淋在装盘的牛仔骨上即可食用。<br><img src="/../images/%E6%85%A2%E7%85%AE%E7%89%9B%E4%BB%94%E9%AA%A8/photo_2023-01-27%2001.25.17.jpeg" alt="收汁"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>炖菜</category>
+        <category>西餐</category>
+      </categories>
+      <tags>
+        <tag>77</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>水浴五分熟牛排</title>
+    <url>/2023/01/27/%E6%B0%B4%E6%B5%B4%E4%BA%94%E5%88%86%E7%86%9F%E7%89%9B%E6%8E%92/</url>
+    <content><![CDATA[<h2 id="Author"><a href="#Author" class="headerlink" title="Author"></a>Author</h2><p>Post: JQ<br>Recipe: JQ</p>
+<h2 id="成品"><a href="#成品" class="headerlink" title="成品"></a>成品</h2><p><img src="/../images/%E6%B0%B4%E6%B5%B4%E4%BA%94%E5%88%86%E7%86%9F%E7%89%9B%E6%8E%92/E96A526B-EF75-4DBD-9169-C65534D665FF_1_105_c.jpeg" alt="成品"><br><img src="/../images/%E6%B0%B4%E6%B5%B4%E4%BA%94%E5%88%86%E7%86%9F%E7%89%9B%E6%8E%92/E79AA30D-30EA-4E5E-ABE5-07D8EAE25466_1_105_c.jpeg" alt="成品2"></p>
+<h2 id="用时"><a href="#用时" class="headerlink" title="用时"></a>用时</h2><p>2 小时</p>
+<h2 id="配料表"><a href="#配料表" class="headerlink" title="配料表"></a>配料表</h2><ol>
+<li>牛排一块，可以选择 Rib Eye （肋眼牛排），New York Strip （不知道叫啥），带不带骨头皆可，水浴不会出现带骨头不好煎熟的问题。</li>
+<li>Rosemary （迷迭香） 一棵。</li>
+<li>黄油一块。</li>
+<li>蒜两瓣。</li>
+<li>盐少许，海盐更佳。</li>
+<li>现磨黑椒依据个人口味添加，可以用黑椒粉替代。现磨黑椒味道更浓。</li>
+<li>(可选)配菜，可以用 Asparagus（芦笋）&#x2F;西兰花&#x2F;玉米粒&#x2F;胡萝卜等等。芦笋直接炒熟，其他蒸熟&#x2F;煮熟即可。</li>
+</ol>
+<h2 id="额外工具"><a href="#额外工具" class="headerlink" title="额外工具"></a>额外工具</h2><p><img src="/../images/%E6%B0%B4%E6%B5%B4%E4%BA%94%E5%88%86%E7%86%9F%E7%89%9B%E6%8E%92/0DCEAB22-B1D5-4C76-B1B8-6B68C923DD35_1_105_c.jpeg" alt="工具图1"><br><img src="/../images/%E6%B0%B4%E6%B5%B4%E4%BA%94%E5%88%86%E7%86%9F%E7%89%9B%E6%8E%92/A20E9AE5-C1F4-43BB-83F4-DBD079BD7DFA_1_105_c.jpeg" alt="工具图2"></p>
+<h2 id="制作过程"><a href="#制作过程" class="headerlink" title="制作过程"></a>制作过程</h2><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><pre class="mermaid">gantt
+    title 总流程
+    dateFormat  HH:mm
+    axisFormat %H:%M
+    section High Level
+    预处理              :crit, a, 00:00, 10m
+    水浴               :crit, b, after a, 2h
+    上锅煎               :crit, c, after b, 5m
+
+    section Detailed View
+    装袋             :a1, 00:00, 10m
+    55度水浴         :b1, after a, 2h
+    每面煎至焦化，约30秒至1分钟 :c1, after b, 5m</pre>
+
+<h3 id="文字版"><a href="#文字版" class="headerlink" title="文字版"></a>文字版</h3><ol>
+<li>牛排两面撒盐和黑胡椒，与黄油、蒜、Rosemary 一起放入真空袋中抽真空备用。</li>
+<li>水浴锅开到 $55\degree C$，冷水放入牛排，至水温恒定后水浴 2h。</li>
+<li>水浴过程中检查一下黄油是否分散，如果不够分散可以手动挤一挤黄油。</li>
+<li>水浴完成后取出牛排，其余部分丢弃。</li>
+<li>取一平底锅烧热油，7成热下牛排，每面煎30秒至1分钟，至表面完全焦化。建议单独将侧面也煎一下，侧面油脂较多，提升香味。</li>
+<li>加入配菜即可食用。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>西餐</category>
+      </categories>
+      <tags>
+        <tag>JQ</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>芒果哈瓦那辣酱鸡胸</title>
     <url>/2023/01/24/%E8%8A%92%E6%9E%9C%E5%93%88%E7%93%A6%E9%82%A3%E8%BE%A3%E9%85%B1%E9%B8%A1%E8%83%B8/</url>
     <content><![CDATA[<h2 id="Author"><a href="#Author" class="headerlink" title="Author"></a>Author</h2><p>Recipe: Sheron</p>
