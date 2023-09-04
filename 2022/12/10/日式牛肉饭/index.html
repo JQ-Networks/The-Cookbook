@@ -311,7 +311,6 @@
 
           </div>
           
-    <div class="comments" id="gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -484,26 +483,6 @@ if (document.querySelectorAll('pre.mermaid').length) {
   
 
   
-
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
-
-<script>
-NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
-    var gitalk = new Gitalk({
-      clientID    : '991d6b67f8c12be95894',
-      clientSecret: '8498a15d13f55647e5b5b4259a0562ac7836bfd0',
-      repo        : 'The-Cookbook',
-      owner       : 'JQ-Networks',
-      admin       : ['jqqqqqqqqqq'],
-      id          : '7a3c7478eb057cdd99bb73b6229cee39',
-        language: '',
-      distractionFreeMode: true
-    });
-    gitalk.render('gitalk-container');
-  }, window.Gitalk);
-});
-</script>
 
 </body>
 </html>
