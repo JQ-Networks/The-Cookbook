@@ -543,6 +543,64 @@
       </tags>
   </entry>
   <entry>
+    <title>2</title>
+    <url>/2023/09/04/%E6%97%A5%E5%BC%8F%E7%89%9B%E8%82%89%E9%A5%ADrev2/</url>
+    <content><![CDATA[<h2 id="Author"><a href="#Author" class="headerlink" title="Author"></a>Author</h2><p>Post: JQ<br>Recipe: JQ</p>
+<h2 id="成品"><a href="#成品" class="headerlink" title="成品"></a>成品</h2><p><img src="/../images/%E6%97%A5%E5%BC%8F%E7%89%9B%E8%82%89%E9%A5%ADrev2/46E4C79B-BEA8-4B61-B825-69B1B2408B15_1_105_c.jpeg" alt="日式牛肉饭rev2"></p>
+<h2 id="用时"><a href="#用时" class="headerlink" title="用时"></a>用时</h2><p>45 分钟 (含煮饭)</p>
+<p>15 分钟（不含煮饭）</p>
+<h2 id="配料表"><a href="#配料表" class="headerlink" title="配料表"></a>配料表</h2><ol>
+<li>火锅肥牛片 500g，提前解冻</li>
+<li>洋葱半个</li>
+<li>油葱酥 10g</li>
+<li>味啉 15 ml</li>
+<li>清酒 （或者白料酒） 50 ml</li>
+<li>万字酱油 约 20 ml，依据口味添加</li>
+<li>鲣鱼粉 （Hondashi Powder）5g，依据口味添加</li>
+<li>日式拌饭撒料 可选</li>
+<li>西兰花胡萝卜配菜 可选</li>
+</ol>
+<h3 id="额外工具"><a href="#额外工具" class="headerlink" title="额外工具"></a>额外工具</h3><p>煮面漏网<br><img src="/../images/%E6%97%A5%E5%BC%8F%E7%89%9B%E8%82%89%E9%A5%AD/6e6776e7c12f189e2cbd979b9bdb2426.jpg" alt="煮面漏网"></p>
+<h2 id="制作过程"><a href="#制作过程" class="headerlink" title="制作过程"></a>制作过程</h2><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><pre class="mermaid">gantt
+    title 总流程
+    dateFormat  HH:mm
+    axisFormat %H:%M
+    section High Level
+    煮饭               :crit, c, 00:00,45m
+    备菜               :crit, a, 00:30,5m
+    煮菜               :crit, b, after a, 10m
+  
+
+    section Detailed View
+    切洋葱             :a1, 00:30, 5m
+    洗切西兰花          :b1, 00:30, 5m
+    烧水并调味          :a2, 00:30, 5m
+    煮洋葱             :a3, after a2, 5m
+    煮肥牛             :a4, after a2 a3, 5m
+    微波炉加热西兰花     :b2, after b1, 2m</pre>
+
+<h3 id="文字版"><a href="#文字版" class="headerlink" title="文字版"></a>文字版</h3><ol>
+<li>洋葱切丝备用。</li>
+<li>西兰花保留花洗净，胡萝卜去皮切片。</li>
+<li>西兰花胡萝卜放入碗中，盖盖微波炉大火加热1.5分钟，至半生即可。注意余热会让菜花继续变熟，可以盖盖焖一会再拿出来。如果还是太生可以改为2分钟。</li>
+<li>烧水，锅建议深一点但是口径不要太大，适合使用小奶锅。</li>
+<li>在煮牛肉的锅中加入味啉，清酒，万字酱油，鲣鱼粉。不用等水开，直接加入洋葱和油葱酥，开锅后继续等5分钟。</li>
+<li>提前装好米饭碗。</li>
+<li>使用煮面漏网，加入少量肥牛，放入煮牛肉的锅中不断用筷子搅动，约30秒即可出锅装碗。此时洋葱在汤中，漏网下面，不要急着捞。</li>
+<li>重复步骤7，直到牛肉煮完。</li>
+<li>捞一些锅里的洋葱装碗。</li>
+<li>撇去煮锅上层浮沫，取一定量底汤浇入碗中。也可以大火开锅时从中间捞取清汤。</li>
+<li>将配菜加入米饭碗中，摆盘即可食用。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>日料</category>
+      </categories>
+      <tags>
+        <tag>JQ</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>水浴五分熟牛排</title>
     <url>/2023/01/27/%E6%B0%B4%E6%B5%B4%E4%BA%94%E5%88%86%E7%86%9F%E7%89%9B%E6%8E%92/</url>
     <content><![CDATA[<h2 id="Author"><a href="#Author" class="headerlink" title="Author"></a>Author</h2><p>Post: JQ<br>Recipe: JQ</p>
