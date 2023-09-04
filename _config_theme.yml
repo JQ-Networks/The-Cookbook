@@ -633,7 +633,7 @@ livere_uid: # <your_uid>
 # Gitalk
 # For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk
 gitalk:
-  enable: true
+  enable: false
   github_id: JQ-Networks # GitHub repo owner
   repo: The-Cookbook # Repository name to store issues
   client_id: ${GITALK_CLIENT_ID} # GitHub Application Client ID
